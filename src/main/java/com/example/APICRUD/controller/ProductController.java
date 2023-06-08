@@ -31,6 +31,10 @@ public class ProductController {
 	public Product findProductById(@PathVariable int id) {
 		return service.getProductById(id);
 	}
+	@GetMapping("/AllProducts")
+	public List<Product> findAllProducts(){
+		return service.getProducts();
+	}
 
 	@GetMapping("/product/{name}")
 	public Product findProductByName(@PathVariable String name) {
