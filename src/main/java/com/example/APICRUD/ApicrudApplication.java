@@ -10,4 +10,8 @@ public class ApicrudApplication {
 		SpringApplication.run(ApicrudApplication.class, args);
 	}
 
+	public static void phas() {
+
+	}
+
 }
