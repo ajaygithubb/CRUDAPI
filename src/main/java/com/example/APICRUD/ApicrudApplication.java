@@ -12,4 +12,8 @@ public class ApicrudApplication {
 	public void anotherMethod(){
 	}
 
+	public static void phas() {
+
+	}
+
 }
